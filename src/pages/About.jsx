@@ -7,7 +7,7 @@ import Quote from '../components/cores/AboutPage/Quotes'
 import FoundingStory from "../assets/Images/FoundingStory.png"
 import StatsComponent from '../components/cores/AboutPage/Stats'
 import LearningGrid from '../components/cores/AboutPage/LearningGrid'
-import ReviewSlider from "../components/common/ReviewSlider"
+// import ReviewSlider from "../components/common/ReviewSlider"
 import ContactFormSection from "../components/cores/AboutPage/ContactFormSection"
 import Footer from "../components/common/Footer"
 

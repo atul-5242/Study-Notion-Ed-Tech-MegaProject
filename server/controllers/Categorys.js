@@ -36,8 +36,8 @@ exports.showAllCategorys = async (req,res)=>{
     try {
         // agar kisi criteria ke basis pe find nhi karan chate to koi bhi chiz {} clurly brace ke andar kuch
         // pass kene ki need nhi hai.
-
-        const allCategorys = await Categorys.find({},{name:true,description:true});//par jo bhi data aaye usme name 
+        console.log("Category API Here")
+        const allCategorys = await Categorys.find({});//par jo bhi data aaye usme name 
         // and description present hona must hai.
         res.status(200).json({
             success:true,
