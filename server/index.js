@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"https://study-notion-ed-tech-mega-project-38tmjla44.vercel.app/",
+        origin:["https://study-notion-ed-tech-mega-project.vercel.app/","https://study-notion-ed-tech-mega-project-38tmjla44.vercel.app/"],
         credentials:true,//Seach about It HW
     })
 )
