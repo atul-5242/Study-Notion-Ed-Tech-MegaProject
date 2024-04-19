@@ -277,7 +277,7 @@ const Home = () => {
                             <div>Terms</div>
                         </div>
                         <div className=''>
-                            Made with ❤️ LoveSir © 2023 Studynotion
+                            Made with ❤️Me(Atul) and Love Bhai © 2023 Studynotion
                         </div>
                 </div>
             </div>
